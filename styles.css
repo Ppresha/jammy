@@ -296,6 +296,18 @@ nav {
   display:flex; align-items:center; gap:20px;
 }
 .fact-card.wide .fact-value { font-size:1.2rem; color:var(--pop); line-height:1.5; }
+.about-quote {
+  color:var(--butter);
+  font-size:1.15rem;
+  border-left:3px solid var(--butter);
+  padding-left:20px;
+  margin-top:12px;
+}
+.about-photo {
+  width:100%; border-radius:12px;
+  border:2.5px solid rgba(253,250,244,.15);
+  box-shadow:8px 8px 0 rgba(245,200,66,.2);
+}
 
 /* RECIPES */
 .recipes-section {
